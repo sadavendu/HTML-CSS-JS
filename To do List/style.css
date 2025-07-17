@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    background-color: #6a25e6e6;
+    font-family: 'Michroma', sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+
+ol.todo-list {
+    background-color: #c29effa8;
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ol.todo-list li.completed {
+    text-decoration: line-through;
+}
