@@ -4,9 +4,8 @@ var img = document.getElementById("imagem")
 var data = new Date()
 var hora = data.getHours() 
 var minuto = data.getMinutes()
-var segundo = data.getSeconds()
 
-msg.innerHTML = `Agora são ${hora}:${minuto}:${segundo}`
+msg.innerHTML = `Agora são ${hora}:${minuto}
 if(hora >= 0 && hora < 12){
     img.src = `img/manha.png`
     document.body.style.background = `#C9D8E4`
